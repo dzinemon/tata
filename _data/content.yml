@@ -23,12 +23,12 @@ products:
    link: '#corporate-cake'}
 
 website: 
-- {url: 'http://tatatort.com.ua', 
+- {url: 'https://tatatort.com.ua',
    path: '/img/svg/cake600.svg', 
 	 text: 'tatatort.com.ua'}
 
 contacts:
-- {href: 'http://tatatort.com.ua', 
+- {href: 'https://tatatort.com.ua',
    text: 'tatatort.com.ua'}
 - {href: 'tel:+380632498807', 
    text: '+38(063)249 88 07'}

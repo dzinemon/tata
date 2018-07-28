@@ -20,7 +20,7 @@ email: tort@tatatort.com.ua
 #url: "" 
 
 baseurl: ""
-url: "http://tatatort.com.ua"
+url: "https://tatatort.com.ua"
 
 
 twitter_username: andriisha
@@ -76,4 +76,4 @@ picture:
         media: "(min-width: 320px)"
         width: "230"
       source_default:
-        width: "230"  
+        width: "230"

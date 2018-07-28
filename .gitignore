@@ -9,3 +9,4 @@ gulpfile.js
 /_img/
 /js/
 .DS_Store
+.htaccess
