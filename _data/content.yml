@@ -1,0 +1,119 @@
+#-------------------------------
+# General content for Landing page
+
+socials:
+- {icon: 'facebook', 
+   path: '//img/svg/facebook.svg', 
+	 link: 'https://www.facebook.com/Tatatort'}
+- {icon: 'vk', 
+   path: '//img/svg/vkontakte.svg', 
+	 link: 'http://vk.com/club39789341'}
+- {icon: 'instagram', 
+   path: '//img/svg/instagram.svg', 
+	 link: 'https://www.instagram.com/tatatort/'}
+
+products:
+#- {product: 'Штоллен', 
+#   link: '#stollen'}
+#- {product: 'Пряничный домик', 
+#   link: '#gingerbread-house'}
+- {product: 'Пряники', 
+   link: '#gingerbread'}
+- {product: 'Корпоративный торт', 
+   link: '#corporate-cake'}
+
+website: 
+- {url: 'http://tatatort.com.ua', 
+   path: '/img/svg/cake600.svg', 
+	 text: 'tatatort.com.ua'}
+
+contacts:
+- {href: 'http://tatatort.com.ua', 
+   text: 'tatatort.com.ua'}
+- {href: 'tel:+380632498807', 
+   text: '+38(063)249 88 07'}
+- {href: 'mailto:tort@tatatort.com.ua', 
+   text: 'E-mail: tort@tatatort.com.ua'}
+
+gingerset:
+  - image-path: /img/winter/gb/set_1.jpg
+    title: Пряничный набор №1
+    alt: Набор пряники на зимние новогодние праздники
+    price: 150 грн
+  - image-path: /img/winter/gb/set_2.jpg
+    title: Пряничный набор №2
+    alt: Набор пряники на зимние новогодние праздники
+    price: 150 грн
+  - image-path: /img/winter/gb/set_3.jpg
+    title: Пряничный набор №3
+    alt: Набор пряники на зимние новогодние праздники
+    price: 80 грн
+  - image-path: /img/winter/gb/set_4.jpg
+    title: Пряничный набор №4
+    alt: Набор пряники на зимние новогодние праздники
+    price: 170 грн
+  - image-path: /img/winter/gb/set_5.jpg
+    title: Пряничный набор №5
+    alt: Набор пряники на зимние новогодние праздники
+    price: 170 грн
+  - image-path: /img/winter/gb/set_6.jpg
+    title: Пряничный набор №6
+    alt: Набор пряники на зимние новогодние праздники
+    price: 150 грн
+  - image-path: /img/winter/gb/set_7.jpg
+    title: Пряничный набор №7
+    alt: Набор пряники на зимние новогодние праздники
+    price: 150 грн
+  - image-path: /img/winter/gb/set_8.jpg
+    title: Пряничный набор №8
+    alt: Набор пряники на зимние новогодние праздники
+    price: 150 грн
+  - image-path: /img/winter/gb/set_9.jpg
+    title: Пряничный набор №9
+    alt: Набор пряники на зимние новогодние праздники
+    price: 150 грн
+  - image-path: /img/winter/gb/set_10.jpg
+    title: Пряничный набор №10
+    alt: Набор пряники на зимние новогодние праздники
+    price: 200 грн
+
+corporate:
+  - image-path: /img/cakes/corporate/corp1.jpg
+    title: Корпоративный торт
+    alt: Корпоративный трехъярусный торт 
+  - image-path: /img/cakes/corporate/corp2.jpg
+    title: Корпоративный торт
+    alt: Корпоративный торт для тематической вечеринки
+  - image-path: /img/cakes/corporate/corp3.jpg
+    title: Корпоративный торт
+    alt: Корпоративный торт с фигуркой оскара
+  - image-path: /img/cakes/corporate/corp4.jpg
+    title: Корпоративный торт
+    alt: Корпоративный торт для фармацевтической компании
+  - image-path: /img/cakes/corporate/corp5.jpg
+    title: Корпоративный торт
+    alt: Корпоративный торт с фигурками и символикой фирмы
+  - image-path: /img/cakes/corporate/corp6.jpg
+    title: Корпоративный торт
+    alt: Корпоративный торт с продукцией компании
+  - image-path: /img/cakes/corporate/corp7.jpg
+    title: Корпоративный торт
+    alt: Торт для корпоратива с логотипом фирмы
+  - image-path: /img/cakes/corporate/corp8.jpg
+    title: Корпоративный торт
+    alt: Корпоративный торт для салона красоты с атрибутами и инструментом
+  - image-path: /img/cakes/corporate/corp9.jpg
+    title: Корпоративный торт
+    alt: Торт на корпоратив чемодан с деньгами
+  - image-path: /img/cakes/corporate/corp10.jpg
+    title: Корпоративный торт
+    alt: Торт на корпоратив в паб
+  - image-path: /img/cakes/corporate/corp11.jpg
+    title: Корпоративный торт
+    alt: Торт на Хэллоуин. Halloween cake
+  - image-path: /img/cakes/corporate/corp12.jpg
+    title: Корпоративный торт
+    alt: Торт муммия на Хэллоуин. Паук, тыква. Halloween cake mummy
+  - image-path: /img/cakes/corporate/corp13.jpg
+    title: Корпоративный торт
+    alt: Торт на новогодний корпоратив. Торт Санта в трубе на Новый год

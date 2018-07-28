@@ -1,0 +1,12 @@
+_site
+.sass-cache
+.jekyll-metadata
+node_modules/
+package-lock.json
+package.json
+gulpfile.js
+/_assets/
+/img/
+/_img/
+/js/
+.DS_Store

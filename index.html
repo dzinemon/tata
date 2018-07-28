@@ -1,0 +1,213 @@
+---
+layout: tatatortdefault 
+description: Торт и сладкий стол на свадьбу, день рождения, корпоратив и праздник. Свадебные, детские, праздничные торты. Цветы, фигурки украшения из мастики
+title: Тататорт · Оригинальные торты на заказ · Киев
+priority: 1.0
+changefreq: weekly
+
+formpspree: true
+
+seo:
+  type: Organization
+---
+
+
+{% include faq.html %}
+{% include form-order.html %}
+
+<article>
+  {% for file in site.static_files %}
+  
+  {{ file.path }}
+  
+  {% endfor %}
+	<div class="padding-wrap">
+		<div class="row">
+			<div class="container">
+				<h1 class="firm">Тататорт</h1>
+				<p class="firm">Оригинальные торты на заказ в Киеве</p>
+			</div>
+			<div class="container">
+				<div class="title">
+					<p class="">Друзья, этот сайт посвящен моему сладкому хобби
+						<br> Здесь каждый сможет найти торты для себя:
+						<br>
+						<a href="{{ site.url }}{{ site.baseurl }}/wedding-cakes">свадебные торты</a>, <a href="{{ site.url }}{{ site.baseurl }}/kids">детские торты</a>, <a href="{{ site.url }}{{ site.baseurl }}/celebration">праздничные торты</a>, <a href="{{ site.url }}{{ site.baseurl }}/corporate">корпоративные торты</a>.
+						<br> Оригинальный дизайн, вкусная начинка, позитивные эмоции – это все Тататорт!</p>
+					<p class="">
+						Ответы на часто задаваемые вопросы при заказе торта <a href class="faq-open">здесь</a>.
+					</p>
+					<p class="desc"> Заказать торт или кендибар.</p>
+					<button class="form-open" type="submit">Заказать</button>
+					<p class="desc">Или позвоните нам</p>
+					<a class="large" href="tel:+380632498807" title="Позвоните нам!" alt="+380632498807">063&nbsp;249&nbsp;88&nbsp;07 </a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<hr>
+</article>
+
+<article class="cake">
+	<div class="padding-wrap">
+		<div class="row">
+			<div class="container">
+				<h2>Мои торты</h2>
+			</div>
+			<div class="row">
+				<div class="container flex-wrap">
+					<a class="wrap-item wedding" href="{{ site.url }}{{ site.baseurl }}/wedding-cakes"><span>Свадебные</span></a>
+					<a class="wrap-item kids" href="{{ site.url }}{{ site.baseurl }}/kids"><span>Детские</span></a>
+					<a class="wrap-item infants" href="{{ site.url }}{{ site.baseurl }}/infants"><span>Малышам до 3-х лет</span></a>
+					<a class="wrap-item corporate" href="{{ site.url }}{{ site.baseurl }}/corporate"><span>Корпоративные</span></a>
+					<a class="wrap-item celebration" href="{{ site.url }}{{ site.baseurl }}/celebration"><span>Праздничные</span></a>
+					<a class="wrap-item men" href="{{ site.url }}{{ site.baseurl }}/man"><span>Торты для мужчин</span></a>
+					<a class="wrap-item nude" href="{{ site.url }}{{ site.baseurl }}/nude"><span>Торты без мастики</span></a>
+					<a class="wrap-item candybar" href="{{ site.url }}{{ site.baseurl }}/candybar"><span>Кендибар</span></a>
+					<a class="wrap-item sweets" href="{{ site.url }}{{ site.baseurl }}/sweets"><span>Маленькие сладости</span></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</article>
+
+<article class="active">
+	<div class="padding-wrap">
+		<div class="row">
+			<div class="container">
+				<p class="desc">
+				<button class="form-open" type="submit">Заказать торт и сладости</button>
+				
+				</p>
+			</div>
+		</div>
+	</div>
+</article>
+
+<article class="fillings text-c">
+	<div class="padding-wrap">
+		<div class="row">
+			<div class="container">
+				<h2>Начинки</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="container">
+				<div class="three columns">
+					<a href="{{ site.url }}/fillings#fruit">
+						<figure class="thumb">
+							{% picture gal_thumb /fillings/fruit/fb_jogurt_peach.jpg alt="фруктово-ягодные начинки, йогуртовый с персиком" %}
+							<figcaption>
+								С добавлением фруктов и ягод
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+				<div class="three columns">
+					<a href="{{ site.url }}/fillings#original">
+						<figure class="thumb">
+							{% picture gal_thumb /fillings/original/or_lovely.jpg alt="Оригинальные начинки торт Любимый" %}
+							<figcaption>
+								Ориганальные начинки
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+				<div class="three columns">
+					<a href="{{ site.url }}/fillings#chocolate">
+						<figure class="thumb">
+							{% picture gal_thumb /fillings/choc/ch_blackforest.jpg alt="Шоколадные начинки торт Черный лес" %}
+							<figcaption>
+								Шоколадные начинки
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+				<div class="three columns">
+					<a href="{{ site.url }}/fillings#nut">
+						<figure class="thumb">
+							{% picture gal_thumb /fillings/nut/nut_yar.jpg alt="торт с добавлением орехов Крещатый яр" %}
+							<figcaption>
+								С добавлением орехов
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</article>
+
+<article class="caption">
+	<div class="padding-wrap">
+		<div class="row">
+			<div class="container">
+				<p class="desc">Узнать о комбинировании или изменении начинок можно <a class="faq-open" href>здесь</a> или по телефону <a href="tel:+380632498807" title="Позвоните нам!" alt="+380632498807">0632498807</a></p>
+			</div>
+		</div>
+	</div>
+</article>
+
+<article class="blog text-c">
+	<div class="padding-wrap">
+		<div class="row">
+			<div class="container">
+				<h2>Блог</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="container">
+				{% for post in site.posts limit:3 %}
+				<div class="four columns">
+					<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">
+						<figure class="thumb post">
+							<div>
+								<img src="{{ site.url }}{{ site.baseurl }}/{{ post.image-thumb-path }}" alt="{{ post.page-title }}">
+							</div>
+							<figcaption>
+								"{{ post.page-title }}"
+								<!--
+								<p class="desc">
+								{{ post.excerpt | remove: '<p>' | remove: '</p>' }}
+								</p>
+						-->
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				{% endfor %}
+			</div>
+		</div>
+		<div class="row">
+			<div class="container">
+				<p>Больше информации и новостей на странице нашего <a href="{{ site.url }}{{ site.baseurl }}/blog">Блога</a></p>
+			</div>
+		</div>
+	</div>
+</article>
+
+<article class="info text-c">
+	<div class="padding-wrap">
+		<div class="row">
+			<div class="container">
+				<p class="desc">Следите за новостями от Тататорт в социальных сетях</p>
+			</div>
+		</div>
+		<div class="row">
+			<a class="icon" href="https://www.facebook.com/Tatatort" target="_blank" title="facebook" alt="facebook">
+				<span></span>
+				<svg>
+					<use xlink:href="#fb" />
+				</svg>
+			</a>
+			<a class="icon" href="https://www.instagram.com/tatatort/" target="_blank" title="instagram" alt="instagram">
+				<span></span>
+				<svg>
+					<use xlink:href="#instagram" />
+				</svg>
+			</a>
+		</div>
+	</div>
+</article>
+

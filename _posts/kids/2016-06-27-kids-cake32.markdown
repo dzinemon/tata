@@ -1,0 +1,23 @@
+---
+layout: post
+description: Детский торт с героями популярной игры Angry Birds 
+title: Тататорт Блог · Детский торт Angry Birds
+page-title: Детский торт Angry Birds
+image-path: img/cakes/kids/kid32.jpg
+category: kid
+priority: 0.5
+changefreq: weekly
+excerpt_separator: <!-- excerpt -->
+---
+
+Детский **торт с героями популярной игры Angry Birds**. 
+
+<!-- excerpt -->
+
+Торт покрыт и украшен фигурками из мастики. 
+
+Начинка: медовая тропиканка. 
+
+Минимальный вес такого торта 3,5 кг.
+
+Торт подойдет для компании из 15 человек.

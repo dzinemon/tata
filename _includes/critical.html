@@ -1,0 +1,476 @@
+<style>
+.flex-row,
+.flex-column,
+.landing,
+.landing header>div,
+.landing>div .product-wrap .data>div,
+.landing footer .contacts,
+.landing header .social,
+.landing header .links,
+.landing>div .product-wrap,
+.landing>div .product-wrap .images .thumb-images,
+.landing>div .cake-stripe {
+ display: flex;
+ justify-content: center;
+ align-items: center
+}
+.flex-column,
+.landing,
+.landing header>div,
+.landing>div .product-wrap .data>div,
+.landing footer .contacts {
+ flex-direction: column
+}
+ header {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+ background-color: #f3fffd;
+ box-shadow: 0 2px 2px 1px rgba(110, 110, 110, 0.4);
+ z-index: 9
+}
+@media (min-width: 1280px) {
+ header {
+  position: fixed;
+  top: 0;
+  left: 0
+ }
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+ header {
+  position: fixed;
+  top: 0;
+  left: 0
+ }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+ header {
+  position: relative
+ }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+ header {
+  position: relative
+ }
+}
+@media (max-width: 479px) {
+ header {
+  position: relative
+ }
+}
+header .logo {
+ margin-top: 1em
+}
+header a.title--logo {
+ display: block;
+ width: 80px;
+ height: 80px;
+ background-image: url("http://tatatort.com.ua/img/svg/cake600.svg");
+ background-repeat: no-repeat;
+ background-size: 80%;
+ background-position: 40% 40%;
+ background-color: #fff;
+ border-radius: 100px;
+ border: 1px solid #3E2723;
+ box-shadow: 0 3px 2px 1px rgba(110, 110, 110, 0.1);
+ transition: all 250ms ease-in-out
+}
+header a.title--logo:hover {
+ box-shadow: 0 3px 2px 1px rgba(110, 110, 110, 0.3)
+}
+header .container {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: flex-end;
+ font-family: "Poiret One", cursive;
+ font-weight: bold
+}
+@media (min-width: 1280px) {
+ header .container {
+  width: 1200px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end
+ }
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+ header .container {
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end
+ }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+ header .container {
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center
+ }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+ header .container {
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center
+ }
+}
+@media (max-width: 479px) {
+ header .container {
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center
+ }
+}
+header .container>div {
+ height: inherit
+}
+header .container a {
+ color: #3E2723;
+ font-family: "Open Sans", sans-serif;
+ font-weight: 400;
+ font-size: 1.25em
+}
+header .container .phone {
+ text-align: center
+}
+@media (min-width: 1280px) {
+ header .container .phone {
+  width: 20%
+ }
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+ header .container .phone {
+  width: 20%
+ }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+ header .container .phone {
+  width: 100%;
+  order: 1
+ }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+ header .container .phone {
+  width: 100%;
+  order: 1
+ }
+}
+@media (max-width: 479px) {
+ header .container .phone {
+  width: 100%;
+  order: 1
+ }
+}
+header .container .title {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ width: 50%;
+ color: #3E2723
+}
+@media (min-width: 1280px) {
+ header .container .title {
+  width: 50%
+ }
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+ header .container .title {
+  width: 50%
+ }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+ header .container .title {
+  width: 100%
+ }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+ header .container .title {
+  width: 100%
+ }
+}
+@media (max-width: 479px) {
+ header .container .title {
+  width: 100%
+ }
+}
+header .container .title h1 {
+ font-size: 1.85em;
+ font-weight: bold
+}
+header .container .title p {
+ margin: 0;
+ font-size: 1em;
+ font-weight: 400;
+ font-family: "Open Sans", sans-serif
+}
+header .container .social {
+ display: flex;
+ flex-direction: row;
+ align-items: flex-end
+}
+@media (min-width: 1280px) {
+ header .container .social {
+  justify-content: flex-end;
+  width: 20%
+ }
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+ header .container .social {
+  justify-content: flex-end;
+  width: 20%
+ }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+ header .container .social {
+  justify-content: center;
+  width: 100%
+ }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+ header .container .social {
+  justify-content: center;
+  width: 100%
+ }
+}
+@media (max-width: 479px) {
+ header .container .social {
+  justify-content: center;
+  width: 100%
+ }
+}
+header .container .social a {
+ display: block;
+ width: 48px;
+ height: 48px;
+ margin: .25em;
+ background-color: #fff;
+ background-repeat: no-repeat;
+ background-size: 60%;
+ background-position: center;
+ border: 0;
+ border-radius: 100%;
+ box-shadow: 0 2px 2px 1px rgba(110, 110, 110, 0.1);
+ outline: 0;
+ transition: all 200ms ease-in-out
+}
+@media (min-width: 1280px) {
+ header .container .social a {
+  width: 48px;
+  height: 48px
+ }
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+ header .container .social a {
+  width: 48px;
+  height: 48px
+ }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+ header .container .social a {
+  width: 56px;
+  height: 56px
+ }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+ header .container .social a {
+  width: 56px;
+  height: 56px
+ }
+}
+@media (max-width: 479px) {
+ header .container .social a {
+  width: 56px;
+  height: 56px
+ }
+}
+header .container .social a:hover {
+ box-shadow: 0 2px 2px 1px rgba(110, 110, 110, 0.2)
+}
+header .container .social a[title="facebook"] {
+ background-image: url(http://tatatort.com.ua/img/svg/facebook.svg)
+}
+header .container .social a[title="instagram"] {
+ background-image: url(http://tatatort.com.ua/img/svg/instagram.svg)
+}
+header .container .social a[title="vkontakte"] {
+ background-image: url(http://tatatort.com.ua/img/svg/vkontakte.svg)
+}
+header nav {
+ width: 100%;
+ margin-top: 1em;
+ background-color: #401c06
+}
+header nav ul.visible {
+ left: -200px
+}
+header nav ul.menu.visible {
+ left: 0
+}
+header nav ul.menu {
+ display: flex;
+ font-family: "Open Sans", sans-serif;
+ text-transform: uppercase;
+ transition: left 350ms linear
+}
+@media (min-width: 1280px) {
+ header nav ul.menu {
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start
+ }
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+ header nav ul.menu {
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start
+ }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+ header nav ul.menu {
+  position: fixed;
+  top: 0;
+  left: -200px;
+  width: 200px;
+  height: 100vh;
+  padding-top: 2em;
+  background: rgba(64, 28, 6, 0.9);
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch
+ }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+ header nav ul.menu {
+  position: fixed;
+  top: 0;
+  left: -200px;
+  width: 200px;
+  height: 100vh;
+  padding-top: 2em;
+  background: rgba(64, 28, 6, 0.9);
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch
+ }
+}
+@media (max-width: 479px) {
+ header nav ul.menu {
+  position: fixed;
+  top: 0;
+  left: -200px;
+  width: 200px;
+  height: 100vh;
+  padding-top: 2em;
+  background: rgba(64, 28, 6, 0.9);
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch
+ }
+}
+header nav ul.menu>li {
+ position: relative;
+ display: block;
+ min-width: 180px;
+ color: #c2fdf7;
+ font-weight: 400;
+ line-height: 2.5em;
+ text-align: center;
+ transition: all 250ms ease-in-out;
+ cursor: pointer
+}
+header nav ul.menu>li a {
+ display: block;
+ color: #c2fdf7;
+ font-weight: 400
+}
+header nav ul.menu>li .submenu {
+ display: none;
+ background-color: #401c06;
+ box-sizing: border-box
+}
+@media (min-width: 1280px) {
+ header nav ul.menu>li .submenu {
+  position: absolute
+ }
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+ header nav ul.menu>li .submenu {
+  position: absolute
+ }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+ header nav ul.menu>li .submenu {
+  position: relative
+ }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+ header nav ul.menu>li .submenu {
+  position: relative
+ }
+}
+@media (max-width: 479px) {
+ header nav ul.menu>li .submenu {
+  position: relative
+ }
+}
+header nav ul.menu>li .submenu li:hover>a {
+ background-color: #f3e59a;
+ color: #401c06
+}
+header nav ul.menu>li .submenu a {
+ display: block;
+ min-width: 180px;
+ line-height: 2.5em;
+ font-size: .75em;
+ font-weight: 400;
+ transition: all 250ms ease-in-out
+}
+header nav ul.menu>li:hover {
+ background-color: #eed96c;
+ color: #401c06
+}
+header nav ul.menu>li:hover>a {
+ color: #401c06
+}
+header nav ul.menu>li:hover>.submenu {
+ display: block
+}
+main {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ max-width: 1200px;
+ width: 100%;
+ background-color: #f3fffd;
+ box-shadow: 0 0 3px 3px rgba(100, 100, 100, 0.3);
+ color: #401c06
+}
+@media (min-width: 1280px) {
+ main {
+  padding-top: 13em
+ }
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+ main {
+  padding-top: 13em
+ }
+}
+main>h2 {
+ text-align: center;
+ margin: 1em 0 .5em
+}
+main section {
+ width: 100%;
+ padding: 1em 2em 0
+}
+</style>

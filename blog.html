@@ -1,0 +1,86 @@
+---
+layout: tatatortdefault
+description: Блог Тататорт. Еще больше информации о наших тортах и сладостях в блоге Тататорт
+title: Тататорт · Блог
+page-title: Список постов по категориям
+priority: 0.6
+changefreq: weekly
+---
+
+
+<article class="">
+	<div class="padding-wrap">
+		<div class="row">
+			<div class="container text-c">
+				<h1>{{page.page-title}}</h1>
+			</div>
+		</div>
+		<div class="container">
+			
+					<div class="row">
+						<h2>Свадебные торты</h2>
+						<ul class="blog-list">
+							{% for post in site.categories.wedding %}
+							<li>
+								<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.page-title }}</a>
+							</li>
+							{% endfor %}
+						</ul>
+					</div>
+					
+					<div class="row">
+						<h2>Детские торты</h2>
+						<ul class="blog-list">
+							{% for post in site.categories.kid %}
+							<li>
+								<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.page-title }}</a>
+							</li>
+							{% endfor %}
+						</ul>
+					</div>
+					
+					<div class="row">
+						<h2>Торты для малышей</h2>
+						<ul class="blog-list">
+							{% for post in site.categories.infant %}
+							<li>
+								<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.page-title }}</a>
+							</li>
+							{% endfor %}
+						</ul>
+					</div>
+					
+					<div class="row">
+						<h2>Торты без мастики</h2>
+						<ul class="blog-list">
+							{% for post in site.categories.nude %}
+							<li>
+								<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.page-title }}</a>
+							</li>
+							{% endfor %}
+						</ul>
+					</div>
+					
+					<div class="row">
+						<h2>Торты для мужчин</h2>
+						<ul class="blog-list">
+							{% for post in site.categories.man %}
+							<li>
+								<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.page-title }}</a>
+							</li>
+							{% endfor %}
+						</ul>
+					</div>
+					<div class="row">
+						<h2>Кендибар / Сладкий стол</h2>
+						<ul class="blog-list">
+							{% for post in site.categories.candybar %}
+							<li>
+								<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.page-title }}</a>
+							</li>
+							{% endfor %}
+						</ul>
+					</div>
+		</div>
+	</div>
+</article>

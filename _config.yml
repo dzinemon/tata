@@ -1,0 +1,79 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+#title: Your awesome title
+email: tort@tatatort.com.ua
+#description: > # this means to ignore newlines until "baseurl:"
+#baseurl: "/_site" # the subpath of your site, e.g. /blog
+#url: "" 
+
+baseurl: ""
+url: "http://tatatort.com.ua"
+
+
+twitter_username: andriisha
+github_username:  dzinemon
+
+# SEO tag presets
+facebook:
+ app_id: 1473007872722954
+# publisher: 1234
+# admins: 1234
+
+logo: '/img/logowhitebg-min.png'
+
+# Build settings
+markdown: kramdown
+#theme: minima
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - gulpfile.js
+  - package-lock.json
+  - package.json
+  - .DS_Store
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+#minify_html: false
+
+permalink: pretty
+
+#livereload: true
+plugins:
+  - jekyll-seo-tag
+  - jekyll-picture-tag
+  - jekyll-sitemap
+  
+#Jekyll picture tag
+picture:
+  source: "./img/cakes"
+  output: "img/cakes"
+  markup: "picture"
+  presets:
+    gal_thumb:
+      attr:
+        itemprop: "image"
+        class: "img-auto"
+      ppi: [1,2]
+      source_320:
+        media: "(min-width: 320px)"
+        width: "230"
+      source_default:
+        width: "230"  

@@ -1,0 +1,24 @@
+@mixin mobile
+	@media (min-width: #{$skeleton-mobile})
+		@content
+
+@mixin mobile-ls
+	@media (min-width: #{$skeleton-ls})
+		@content
+
+@mixin tablet
+	@media (min-width: #{$skeleton-bp})
+		@content
+
+@mixin desktop
+	@media (min-width: #{$skeleton-container})
+		@content
+
+
+@mixin retina
+	@media screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi)
+		@content
+
+@mixin non-retina
+	@media screen and (-webkit-max-device-pixel-ratio: 1), screen and (max-resolution: 191dpi)
+		@content

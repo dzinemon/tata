@@ -1,0 +1,142 @@
+.container
+	>h2,
+	>h1
+		text-align: center
+	
+	
+.wrap-item
+	width: 100%
+	display: inline-block
+	height: 15em
+	margin: 10px 0
+	background:
+		repeat: no-repeat
+		size: cover
+		position: top center
+	
+	@include mobile-ls
+		width: 46%
+		height: 12em
+		margin: 10px
+	
+	@include tablet
+		width: 30%
+		height: 10em
+	
+	@include desktop
+		width: 30%
+		height: 13em
+
+.cake
+	.wrap-item
+		position: relative
+		border-radius: 4px
+		box-shadow: 0 2px 2px 1px rgba(60,60,60,0.20)
+	
+		span
+			position: absolute
+			left: 0
+			bottom: 0
+			width: 100%
+			text-align: center
+			display: block
+			background-color: $basic
+			color: #fff
+			font-weight: 600
+			font-size: 1.5rem
+			text-transform: uppercase
+			transition: all 250ms ease-in
+		&:hover
+			span
+				padding: 10% 0
+				background-color: transparentize($basic, .5)
+	
+	
+		&.wedding
+			background-image: url('/img/cakes/wedding/wed53.jpg')
+
+		&.kids
+			background-image: url('/img/cakes/kids/kid50.jpg')
+		
+		&.infants
+			background-image: url('/img/cakes/infant/infant54.jpg')
+		
+		&.corporate
+			background-image: url('/img/cakes/corporate/corp8.jpg')
+		
+		&.celebration
+			background-image: url('/img/cakes/celebration/celeb24.jpg')
+		
+		&.men
+			background-image: url('/img/cakes/man/man18.jpg')
+		
+		&.nude
+			background-image: url('/img/cakes/nude/nude26.jpg')
+		
+		&.candybar
+			background-image: url('/img/cakes/candybar/cbar8.jpg')
+
+		&.sweets
+			background-image: url('/img/cakes/small/sweets9.jpg')
+	
+
+figure
+	&.thumb
+		background-color: #fff
+		padding: 5px
+		box-shadow: 0 2px 2px 1px rgba(60, 60, 60, 0.20)
+		border-radius: 4px
+
+		>div
+			overflow: hidden
+
+			>img
+				display: block
+				margin: 0 auto
+				max-width: 210px
+		
+		&.post
+		
+			>div
+				height: 11em
+		
+				img
+					max-width: 100%
+					max-height: 100%
+	&.fill
+		background-color: #fff
+		width: 100%
+		margin: 5px 5px 35px
+		border-bottom: 1px solid rgba(60,60,60, 0.20)
+		
+		@include mobile-ls
+			width: 46%
+			margin: 5px 5px 15px
+		@include tablet
+			width: 30%
+
+
+		@include desktop
+			width: 22%
+  
+		figcaption
+			min-height: 6em
+			font-size: 85%
+			line-height: 1.25
+			margin-bottom: 1em
+
+		a
+			display: block
+			height: 180px
+			overflow: hidden
+		
+.three, .four
+	figcaption
+		height: 4em
+		font-size: 15px
+	
+		@include mobile-ls
+			font-size: 13px
+	
+		@include tablet
+			font-size: 15px
