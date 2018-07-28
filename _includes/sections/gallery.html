@@ -9,7 +9,7 @@
 		<div class="row">
 			<div class="container flex-wrap">
 				{% for image in page.images reversed %}
-				<a class="fancybox" rel="{{ page.category }}" href="{{ site.url }}{{ site.baseurl }}/img/cakes{{ image.image-path }}" title="{{ image.title }}">
+				<a class="fancybox" rel="{{ page.category }}" href="/img/cakes{{ image.image-path }}" title="{{ image.title }}">
 					{% picture gal_thumb {{ image.image-path }} alt="{{ image.alt }}" %}
 				</a>
 				{% endfor %}

@@ -142,7 +142,7 @@ nut-images:
 			<div class="container flex-wrap">
 				{% for image in page.lt-images %}
 				<figure class="{{image.class}} fill">
-					<a class="fancybox" rel="gallery-fillings-lt" href="{{ site.url }}{{ site.baseurl }}/img/cakes{{ image.image-path }}" title="{{ image.title }}">
+					<a class="fancybox" rel="gallery-fillings-lt" href="/img/cakes{{ image.image-path }}" title="{{ image.title }}">
 						{% picture gal_thumb {{ image.image-path }} alt="{{ image.filling-name }}" %}
 					</a>
 					<p class="desc">{{ image.filling-name }}</p>
@@ -159,7 +159,7 @@ nut-images:
 			<div class="container flex-wrap">
 				{% for image in page.or-images %}
 				<figure class="{{image.class}} fill">
-					<a class="fancybox" rel="gallery-fillings-original" href="{{ site.url }}{{ site.baseurl }}/img/cakes{{ image.image-path }}" title="{{ image.title }}">
+					<a class="fancybox" rel="gallery-fillings-original" href="/img/cakes{{ image.image-path }}" title="{{ image.title }}">
 						{% picture gal_thumb {{ image.image-path }} alt="{{ image.filling-name }}" %}
 					</a>
 					<p class="desc">{{ image.filling-name }}</p>
@@ -176,7 +176,7 @@ nut-images:
 			<div class="container flex-wrap">
 				{% for image in page.ch-images %}
 				<figure class="{{image.class}} fill">
-					<a class="fancybox" rel="gallery-fillings-choc" href="{{ site.url }}{{ site.baseurl }}/img/cakes{{ image.image-path }}" title="{{ image.title }}">
+					<a class="fancybox" rel="gallery-fillings-choc" href="/img/cakes{{ image.image-path }}" title="{{ image.title }}">
 						{% picture gal_thumb {{ image.image-path }} alt="{{ image.filling-name }}" %}
 					</a>
 					<p class="desc">{{ image.filling-name }}</p>
@@ -193,7 +193,7 @@ nut-images:
 			<div class="container flex-wrap">
 				{% for image in page.nut-images %}
 				<figure class="{{image.class}} fill">
-					<a class="fancybox" rel="gallery-fillings-nut" href="{{ site.url }}{{ site.baseurl }}/img/cakes{{ image.image-path }}" title="{{ image.title }}">
+					<a class="fancybox" rel="gallery-fillings-nut" href="/img/cakes{{ image.image-path }}" title="{{ image.title }}">
 						{% picture gal_thumb {{ image.image-path }} alt="{{ image.filling-name }}" %}
 					</a>
 					<p class="desc">{{ image.filling-name }}</p>

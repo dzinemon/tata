@@ -27,7 +27,7 @@ seo:
 					<p class="">Друзья, этот сайт посвящен моему сладкому хобби
 						<br> Здесь каждый сможет найти торты для себя:
 						<br>
-						<a href="{{ site.url }}{{ site.baseurl }}/wedding-cakes">свадебные торты</a>, <a href="{{ site.url }}{{ site.baseurl }}/kids">детские торты</a>, <a href="{{ site.url }}{{ site.baseurl }}/celebration">праздничные торты</a>, <a href="{{ site.url }}{{ site.baseurl }}/corporate">корпоративные торты</a>.
+						<a href="/wedding-cakes">свадебные торты</a>, <a href="/kids">детские торты</a>, <a href="/celebration">праздничные торты</a>, <a href="/corporate">корпоративные торты</a>.
 						<br> Оригинальный дизайн, вкусная начинка, позитивные эмоции – это все Тататорт!</p>
 					<p class="">
 						Ответы на часто задаваемые вопросы при заказе торта <a href class="faq-open">здесь</a>.
@@ -51,15 +51,15 @@ seo:
 			</div>
 			<div class="row">
 				<div class="container flex-wrap">
-					<a class="wrap-item wedding" href="{{ site.url }}{{ site.baseurl }}/wedding-cakes"><span>Свадебные</span></a>
-					<a class="wrap-item kids" href="{{ site.url }}{{ site.baseurl }}/kids"><span>Детские</span></a>
-					<a class="wrap-item infants" href="{{ site.url }}{{ site.baseurl }}/infants"><span>Малышам до 3-х лет</span></a>
-					<a class="wrap-item corporate" href="{{ site.url }}{{ site.baseurl }}/corporate"><span>Корпоративные</span></a>
-					<a class="wrap-item celebration" href="{{ site.url }}{{ site.baseurl }}/celebration"><span>Праздничные</span></a>
-					<a class="wrap-item men" href="{{ site.url }}{{ site.baseurl }}/man"><span>Торты для мужчин</span></a>
-					<a class="wrap-item nude" href="{{ site.url }}{{ site.baseurl }}/nude"><span>Торты без мастики</span></a>
-					<a class="wrap-item candybar" href="{{ site.url }}{{ site.baseurl }}/candybar"><span>Кендибар</span></a>
-					<a class="wrap-item sweets" href="{{ site.url }}{{ site.baseurl }}/sweets"><span>Маленькие сладости</span></a>
+					<a class="wrap-item wedding" href="/wedding-cakes"><span>Свадебные</span></a>
+					<a class="wrap-item kids" href="/kids"><span>Детские</span></a>
+					<a class="wrap-item infants" href="/infants"><span>Малышам до 3-х лет</span></a>
+					<a class="wrap-item corporate" href="/corporate"><span>Корпоративные</span></a>
+					<a class="wrap-item celebration" href="/celebration"><span>Праздничные</span></a>
+					<a class="wrap-item men" href="/man"><span>Торты для мужчин</span></a>
+					<a class="wrap-item nude" href="/nude"><span>Торты без мастики</span></a>
+					<a class="wrap-item candybar" href="/candybar"><span>Кендибар</span></a>
+					<a class="wrap-item sweets" href="/sweets"><span>Маленькие сладости</span></a>
 				</div>
 			</div>
 		</div>
@@ -89,7 +89,7 @@ seo:
 		<div class="row">
 			<div class="container">
 				<div class="three columns">
-					<a href="{{ site.url }}/fillings#fruit">
+					<a href="/fillings#fruit">
 						<figure class="thumb">
 							{% picture gal_thumb /fillings/fruit/fb_jogurt_peach.jpg alt="фруктово-ягодные начинки, йогуртовый с персиком" %}
 							<figcaption>
@@ -99,7 +99,7 @@ seo:
 					</a>
 				</div>
 				<div class="three columns">
-					<a href="{{ site.url }}/fillings#original">
+					<a href="/fillings#original">
 						<figure class="thumb">
 							{% picture gal_thumb /fillings/original/or_lovely.jpg alt="Оригинальные начинки торт Любимый" %}
 							<figcaption>
@@ -109,7 +109,7 @@ seo:
 					</a>
 				</div>
 				<div class="three columns">
-					<a href="{{ site.url }}/fillings#chocolate">
+					<a href="/fillings#chocolate">
 						<figure class="thumb">
 							{% picture gal_thumb /fillings/choc/ch_blackforest.jpg alt="Шоколадные начинки торт Черный лес" %}
 							<figcaption>
@@ -119,7 +119,7 @@ seo:
 					</a>
 				</div>
 				<div class="three columns">
-					<a href="{{ site.url }}/fillings#nut">
+					<a href="/fillings#nut">
 						<figure class="thumb">
 							{% picture gal_thumb /fillings/nut/nut_yar.jpg alt="торт с добавлением орехов Крещатый яр" %}
 							<figcaption>
@@ -154,10 +154,10 @@ seo:
 			<div class="container">
 				{% for post in site.posts limit:3 %}
 				<div class="four columns">
-					<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">
+					<a href="{{ post.url }}">
 						<figure class="thumb post">
 							<div>
-								<img src="{{ site.url }}{{ site.baseurl }}/{{ post.image-thumb-path }}" alt="{{ post.page-title }}">
+								<img src="/{{ post.image-thumb-path }}" alt="{{ post.page-title }}">
 							</div>
 							<figcaption>
 								"{{ post.page-title }}"
@@ -176,7 +176,7 @@ seo:
 		</div>
 		<div class="row">
 			<div class="container">
-				<p>Больше информации и новостей на странице нашего <a href="{{ site.url }}{{ site.baseurl }}/blog">Блога</a></p>
+				<p>Больше информации и новостей на странице нашего <a href="/blog">Блога</a></p>
 			</div>
 		</div>
 	</div>
