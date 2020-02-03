@@ -3,7 +3,7 @@ layout: post
 description: Торт без мастики, голый торт, с меренгами и макаронс.
 title: Тататорт Блог · Торт без мастики с меренгами и макаронс
 page-title: Торт без мастики с меренгами и макаронс
-image-path: img/cakes/nude/nude30.jpg
+image-path: img/cakes/nude/nude20.jpg
 category: nude
 priority: 0.5
 changefreq: weekly

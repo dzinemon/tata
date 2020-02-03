@@ -174,6 +174,53 @@ images:
   - image-path: /celebration/celeb55.jpg
     title: Праздничный торт
     alt: Шоколадный праздничный торт
+  - image-path: /celebration/celeb56.jpg
+    title: Праздничный торт
+    alt: Праздничный торт для художника
+  - image-path: /celebration/celeb57.jpg
+    title: Праздничный торт
+    alt: Нежный праздничный торт с цветами и топпером
+  - image-path: /celebration/celeb58.jpg
+    title: Праздничный торт
+    alt: Праздничный торт без мастики с макаронс меренгами и пряниками
+  - image-path: /celebration/celeb59.jpg
+    title: Праздничный торт
+    alt: Праздничный торт Твист с кокосовой юбкой
+  - image-path: /celebration/celeb60.jpg
+    title: Праздничный торт
+    alt: Праздничный трехъярусный торт
+  - image-path: /celebration/celeb61.jpg
+    title: Праздничный торт
+    alt: Праздничный торт для девушки
+  - image-path: /celebration/celeb62.jpg
+    title: Праздничный торт
+    alt: Торт Atlas Weekend
+  - image-path: /celebration/celeb63.jpg
+    title: Праздничный торт
+    alt: Нежный торт для мамы
+  - image-path: /celebration/celeb64.jpg
+    title: Праздничный торт
+    alt: Торт с золотыми подтеками
 ---
 
-{% include sections/gallery.html %}
+<section class="section">
+	<div class="container is-fullhd">
+		<div class="columns">
+			<div class="column has-text-centered">
+				<h1 class="title is-1 is-family-secondary">{{ page.page-title }}</h1>
+			</div>
+		</div>
+		
+		<div class="columns is-multiline is-mobile">
+			{% assign image_files = site.static_files | where: "cake_cat", "celebration" %}
+				{% for image in image_files reversed %}
+				<a class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile" rel="{{ page.category }}" href="{{ image.path }}" title="{{ image.basename }}">
+					<figure class="image is-1by1">
+						{% picture gal_thumb /celebration/{{ image.name }} alt="{{ image.basename }}" style="object-fit:cover"%}
+					</figure>
+				</a>
+				{% endfor %}
+			
+		</div>
+	</div>
+</section>

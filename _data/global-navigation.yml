@@ -1,0 +1,43 @@
+- name: Главная
+  url: /
+  class: false  
+- name: Торты
+  url: /
+  class: has-dropdown
+  items:
+    - name: Свадебные
+      image: /wedding/wed74.jpg
+      url: /wedding-cakes/
+    - name: Детские
+      image: /kids/kid137.jpg
+      url: /kids/
+    - name: Малышам
+      image: /infant/infant119.jpg
+      url: /infants/
+    - name: Корпоративные
+      image: /corporate/corp17.jpg
+      url: /corporate/
+    - name: Праздничные
+      image: /celebration/celeb64.jpg
+      url: /celebration/
+    - name: Торты для мужчин
+      image: /man/man34.jpg
+      url: /man/
+    - name: Просто торты
+      image: /nude/nude58.jpg
+      url: /tatatort-cakes/
+    - name: Кендибар
+      image: /candybar/cbar11.jpg
+      url: /candybar/
+    - name: Маленькие сладости
+      image: /small/sweets17.jpg
+      url: /sweets/
+- name: Начинки
+  url: /fillings/
+  class: false   
+- name: Блог
+  url: /blog/
+  class: false  
+- name: Контакты
+  url: /contacts/
+  class: false

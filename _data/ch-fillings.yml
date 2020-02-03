@@ -1,0 +1,24 @@
+- image-path: /fillings/choc/ch_mulatto.jpg
+  class:
+  filling-name: Торт •Мулатка•
+  caption: Шоколадный бисквит, абрикосовый слой, мусс из молочного шоколада.
+- image-path: /fillings/choc/ch_truffel.jpg
+  class: favor
+  filling-name: Торт •Трюфельный с малиной•
+  caption: Шоколадные коржи, пропитанные сиропом, шоколадный ганаш, малиновая прослойка.
+- image-path: /fillings/choc/ch_choc-cherry.jpg
+  class: favor
+  filling-name: Торт •Шоколадные вишенки•
+  caption: Шоколадные коржи, шоколадный крем на основе сливок и кремчиза, прослойка с вишнями.
+- image-path: /fillings/choc/ch_ideal_date.jpg
+  class:
+  filling-name: Торт •Идеальное свидание•
+  caption: Шоколадный бисквит, пропитанный сиропом, клубничное кули, шоколадный крем, клубничный крем.
+- image-path: /fillings/choc/ch_triple.jpg
+  class: 
+  filling-name: Торт •Три шоколада•
+  caption: Шоколадный бисквит, три вида суфле. Темный, молочный и белый шоколад.
+- image-path: /fillings/cakelogo.png
+  class: favor
+  filling-name: Торт •Черный лес•
+  caption: Шоколадный бисквит, пропитанный сиропом, два вида крема - ванильный и шоколадный, которые идеально сочетаются с вишневой кислинкой.

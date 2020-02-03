@@ -174,15 +174,15 @@ images:
   - image-path: /infant/infant55.jpg
     title: Торт ребенку до 3-х лет
     alt: Детский торт в форме цифры три с Angry Birds. Торт Энгри бердс.
-  - image-path: /infant/infant56.jpg
-    title: Торт ребенку до 3-х лет
-    alt: Детский торт Crazy pink cake на годик девочке. Нежный торт нежные цвета
-  - image-path: /infant/infant57.jpg
-    title: Торт ребенку до 3-х лет
-    alt: Детский торт с миньонами. Глазурь, меренги, фигурки миньонов
-  - image-path: /infant/infant58.jpg
-    title: Торт ребенку до 3-х лет
-    alt: Детский торт по мотивам мультфильма Дом. Торт Був
+#  - image-path: /infant/infant56.jpg
+#    title: Торт ребенку до 3-х лет
+#    alt: Детский торт Crazy pink cake на годик девочке. Нежный торт нежные цвета
+#  - image-path: /infant/infant57.jpg
+#    title: Торт ребенку до 3-х лет
+#    alt: Детский торт с миньонами. Глазурь, меренги, фигурки миньонов
+#  - image-path: /infant/infant58.jpg
+#    title: Торт ребенку до 3-х лет
+#    alt: Детский торт по мотивам мультфильма Дом. Торт Був
   - image-path: /infant/infant59.jpg
     title: Торт ребенку до 3-х лет
     alt: Детский торт на годик ребенку. Двухъярусный торт с фигуркой мишки и звездами
@@ -228,9 +228,9 @@ images:
   - image-path: /infant/infant73.jpg
     title: Торт ребенку до 3-х лет
     alt: Двухъярусный торт на 3 (три) годика ребенку с Мини Маус, нежный торт с макаронс
-  - image-path: /infant/infant74.jpg
-    title: Торт ребенку до 3-х лет
-    alt: Торт на годик ребенку, украшен меренгами и макаронс.
+#  - image-path: /infant/infant74.jpg
+#    title: Торт ребенку до 3-х лет
+#    alt: Торт на годик ребенку, украшен меренгами и макаронс.
   - image-path: /infant/infant75.jpg
     title: Торт ребенку до 3-х лет
     alt: Торт на 1 (один) год ребенку с мишкой, макаронс и крем чизом.
@@ -306,6 +306,77 @@ images:
   - image-path: /infant/infant101.jpg
     title: Торт ребенку до 3-х лет
     alt: Детский торт без мастики мальчику на 1 год
+  - image-path: /infant/infant102.jpg
+    title: Торт ребенку до 3-х лет
+    alt: Детский торт Мини Маус девочке на 1 год
+  - image-path: /infant/infant103.jpg
+    title: Торт ребенку до 3-х лет
+    alt: Детский торт Миньоны на 1 годик
+  - image-path: /infant/infant104.jpg
+    title: Торт ребенку до 3-х лет
+    alt: Детский торт Малышарики
+  - image-path: /infant/infant105.jpg
+    title: Торт ребенку до 3-х лет
+    alt: Детский торт Мики и Мини Маус
+  - image-path: /infant/infant106.jpg
+    title: Торт ребенку до 3-х лет
+    alt: Нежно-голубой Детский торт с цифрой один и звездами
+  - image-path: /infant/infant107.jpg
+    title: Торт ребенку до 3-х лет
+    alt: Нежно-голубой Детский торт с мишкой и цифрой один
+  - image-path: /infant/infant108.jpg
+    title: Торт ребенку до 3-х лет
+    alt: Нежно Детский торт на день рождения
+  - image-path: /infant/infant109.jpg
+    title: Торт ребенку до 3-х лет
+    alt: Детский торт The Baby Boss Босс Молокосос
+  - image-path: /infant/infant110.jpg
+    title: Торт ребенку до 3-х лет
+    alt: Детский торт SpongeBob SquarePants
+  - image-path: /infant/infant111.jpg
+    title: Торт ребенку до 3-х лет
+    alt: Нежно-розовый Детский торт
+  - image-path: /infant/infant112.jpg
+    title: Торт ребенку до 3-х лет
+    alt: Детский торт Фиксики на 2 года
+  - image-path: /infant/infant113.jpg
+    title: Торт ребенку до 3-х лет
+    alt: Яркий Детский торт на 3 года 
+  - image-path: /infant/infant114.jpg
+    title: Торт ребенку до 3-х лет
+    alt: Нежный розовый Детский торт на 1 год с глазурью 
+  - image-path: /infant/infant115.jpg
+    title: Торт ребенку до 3-х лет
+    alt: Детский торт на крещение
+  - image-path: /infant/infant116.jpg
+    title: Торт ребенку до 3-х лет
+    alt: Торт малышу с динозаврами 
+  - image-path: /infant/infant117.jpg
+    title: Торт ребенку до 3-х лет
+    alt: Торт на год Мики Маус
+  - image-path: /infant/infant119.jpg
+    title: Торт ребенку до 3-х лет
+    alt: Нежный розовый Детский торт на 2 годика с пряниками
 ---
 
-{% include sections/gallery.html %}
+<section class="section">
+	<div class="container is-fullhd">
+		<div class="columns">
+			<div class="column has-text-centered">
+				<h1 class="title is-1 is-family-secondary">{{ page.page-title }}</h1>
+			</div>
+		</div>
+		
+		<div class="columns is-multiline is-mobile">
+			{% assign image_files = site.static_files | where: "cake_cat", "infant" %}
+				{% for image in image_files reversed %}
+				<a class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile" rel="{{ page.category }}" href="{{ image.path }}" title="{{ image.basename }}">
+					<figure class="image is-1by1">
+						{% picture gal_thumb /infant/{{ image.name }} alt="{{ image.basename }}" style="object-fit:cover"%}
+					</figure>
+				</a>
+				{% endfor %}
+			
+		</div>
+	</div>
+</section>

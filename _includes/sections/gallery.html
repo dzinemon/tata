@@ -1,19 +1,21 @@
-<article>
-	<div class="padding-wrap">
-		<div class="row">
-			<div class="container">
-				<h1>{{ page.page-title }}</h1>
+<section class="section">
+	<div class="container is-fullhd">
+		<div class="columns">
+			<div class="column has-text-centered">
+				<h1 class="title is-1 is-family-secondary">{{ page.page-title }}</h1>
 			</div>
 		</div>
 		
-		<div class="row">
-			<div class="container flex-wrap">
+		<div class="columns is-multiline is-mobile">
+			{% assign image_files = site.static_files | where: "cake_cat", "man" %}
 				{% for image in page.images reversed %}
-				<a class="fancybox" rel="{{ page.category }}" href="/img/cakes{{ image.image-path }}" title="{{ image.title }}">
-					{% picture gal_thumb {{ image.image-path }} alt="{{ image.alt }}" %}
+				<a class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile" rel="{{ page.category }}" href="/img/cakes{{ image.image-path }}" title="{{ image.title }}">
+					<figure class="image is-1by1">
+						{% picture gal_thumb {{ image.image-path }} alt="{{ image.alt }}" style="object-fit:cover"%}
+					</figure>
 				</a>
 				{% endfor %}
-			</div>
+			
 		</div>
 	</div>
-</article>
+</section>

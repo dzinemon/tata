@@ -1,0 +1,16 @@
+- name: Легкие начинки с добавлением фруктов и ягод
+  p:
+  url: /fillings/#fruit
+  image: /img/cakes/fillings/fruit/fb_jogurt_cherry_upd.jpg
+- name: Оригинальные начинки
+  p:
+  url: /fillings/#original
+  image: /img/cakes/fillings/original/or_savanna.jpg
+- name: Шоколадные начинки
+  p:
+  url: /fillings/#chocolate
+  image: /img/cakes/fillings/choc/ch_mulatto.jpg
+- name: С добавлением орехов
+  p:
+  url: /fillings/#nut
+  image: /img/cakes/fillings/nut/nut_orehovyi.jpg

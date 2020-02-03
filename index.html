@@ -15,194 +15,216 @@ seo:
 {% include faq.html %}
 {% include form-order.html %}
 
-<article>
-	<div class="padding-wrap">
-		<div class="row">
-			<div class="container">
-				<h1 class="firm">Тататорт</h1>
-				<p class="firm">Оригинальные торты на заказ в Киеве</p>
-			</div>
-			<div class="container">
-				<div class="title">
-					<p class="">Друзья, этот сайт посвящен моему сладкому хобби
-						<br> Здесь каждый сможет найти торты для себя:
-						<br>
-						<a href="/wedding-cakes">свадебные торты</a>, <a href="/kids">детские торты</a>, <a href="/celebration">праздничные торты</a>, <a href="/corporate">корпоративные торты</a>.
-						<br> Оригинальный дизайн, вкусная начинка, позитивные эмоции – это все Тататорт!</p>
-					<p class="">
-						Ответы на часто задаваемые вопросы при заказе торта <a href class="faq-open">здесь</a>.
+<section class="section">
+	<div class="container is-fullhd">
+		<div class="columns is-vcentered">
+			<div class="column is-5-desktop is-6-tablet content">
+				<h1 class="title is-1 is-family-secondary">Тататорт</h1>
+				<p class="subtitle is-7">Оригинальные торты на заказ в Киеве</p>
+				<p class="">Друзья, этот сайт посвящен моему сладкому хобби.
+					 Здесь каждый сможет найти торты для себя:
 					</p>
-					<p class="desc"> Заказать торт или кендибар.</p>
-					<button class="form-open" type="submit">Заказать</button>
-					<p class="desc">Или позвоните нам</p>
-					<a class="large" href="tel:+380632498807" title="Позвоните нам!" alt="+380632498807">063&nbsp;249&nbsp;88&nbsp;07 </a>
-				</div>
-			</div>
-		</div>
-	</div>
-	<hr>
-</article>
-
-<article class="cake">
-	<div class="padding-wrap">
-		<div class="row">
-			<div class="container">
-				<h2>Мои торты</h2>
-			</div>
-			<div class="row">
-				<div class="container flex-wrap">
-					<a class="wrap-item wedding" href="/wedding-cakes"><span>Свадебные</span></a>
-					<a class="wrap-item kids" href="/kids"><span>Детские</span></a>
-					<a class="wrap-item infants" href="/infants"><span>Малышам до 3-х лет</span></a>
-					<a class="wrap-item corporate" href="/corporate"><span>Корпоративные</span></a>
-					<a class="wrap-item celebration" href="/celebration"><span>Праздничные</span></a>
-					<a class="wrap-item men" href="/man"><span>Торты для мужчин</span></a>
-					<a class="wrap-item nude" href="/nude"><span>Торты без мастики</span></a>
-					<a class="wrap-item candybar" href="/candybar"><span>Кендибар</span></a>
-					<a class="wrap-item sweets" href="/sweets"><span>Маленькие сладости</span></a>
-				</div>
-			</div>
-		</div>
-	</div>
-</article>
-
-<article class="active">
-	<div class="padding-wrap">
-		<div class="row">
-			<div class="container">
-				<p class="desc">
-				<button class="form-open" type="submit">Заказать торт и сладости</button>
+					<p>
+						<!-- <a href="/wedding-cakes/">свадебные торты</a>, <a href="/kids/">детские торты</a>, <a href="/celebration/">праздничные торты</a>, <a href="/corporate/">корпоративные торты</a>. -->
+						 <strong>Оригинальный дизайн, вкусная начинка, позитивные эмоции – это все Тататорт!</strong>
+					</p>
 				
+				<p class="">Заказать торт или кендибар.</p>
+
+				<div class="field is-grouped">
+					<p class="control">
+						<a class="button is-primary is-outlined" href="mailto:tatautekhina@gmail.com" title="Напишите нам!" alt="tatautekhina@gmail.com">
+							Написать нам
+						</a>
+					</p>
+				 
+					<p class="control">
+						<a class="button is-primary" href="tel:+380632498807" title="Позвоните нам!" alt="+380632498807">
+							Позвоните нам
+						</a>
+					</p>
+				</div>
+
+				<p class="is-size-7">
+					Ответы на часто задаваемые вопросы при заказе торта <a class="open" data-target-open="faq">здесь</a>.
 				</p>
+				
 			</div>
-		</div>
-	</div>
-</article>
-
-<article class="fillings text-c">
-	<div class="padding-wrap">
-		<div class="row">
-			<div class="container">
-				<h2>Начинки</h2>
-			</div>
-		</div>
-		<div class="row">
-			<div class="container">
-				<div class="three columns">
-					<a href="/fillings#fruit">
-						<figure class="thumb">
-							{% picture gal_thumb /fillings/fruit/fb_jogurt_peach.jpg alt="фруктово-ягодные начинки, йогуртовый с персиком" %}
-							<figcaption>
-								С добавлением фруктов и ягод
-							</figcaption>
-						</figure>
-					</a>
-				</div>
-				<div class="three columns">
-					<a href="/fillings#original">
-						<figure class="thumb">
-							{% picture gal_thumb /fillings/original/or_lovely.jpg alt="Оригинальные начинки торт Любимый" %}
-							<figcaption>
-								Ориганальные начинки
-							</figcaption>
-						</figure>
-					</a>
-				</div>
-				<div class="three columns">
-					<a href="/fillings#chocolate">
-						<figure class="thumb">
-							{% picture gal_thumb /fillings/choc/ch_blackforest.jpg alt="Шоколадные начинки торт Черный лес" %}
-							<figcaption>
-								Шоколадные начинки
-							</figcaption>
-						</figure>
-					</a>
-				</div>
-				<div class="three columns">
-					<a href="/fillings#nut">
-						<figure class="thumb">
-							{% picture gal_thumb /fillings/nut/nut_yar.jpg alt="торт с добавлением орехов Крещатый яр" %}
-							<figcaption>
-								С добавлением орехов
-							</figcaption>
-						</figure>
-					</a>
-				</div>
-			</div>
-		</div>
-	</div>
-</article>
-
-<article class="caption">
-	<div class="padding-wrap">
-		<div class="row">
-			<div class="container">
-				<p class="desc">Узнать о комбинировании или изменении начинок можно <a class="faq-open" href>здесь</a> или по телефону <a href="tel:+380632498807" title="Позвоните нам!" alt="+380632498807">0632498807</a></p>
-			</div>
-		</div>
-	</div>
-</article>
-
-<article class="blog text-c">
-	<div class="padding-wrap">
-		<div class="row">
-			<div class="container">
-				<h2>Блог</h2>
-			</div>
-		</div>
-		<div class="row">
-			<div class="container">
-				{% for post in site.posts limit:3 %}
-				<div class="four columns">
-					<a href="{{ post.url }}">
-						<figure class="thumb post">
-							<div>
-								<img src="/{{ post.image-thumb-path }}" alt="{{ post.page-title }}">
+			<div class="column is-6-tablet is-offset-1-desktop">
+				{% assign cakes = site.data.global-navigation[1].items %}
+			 
+				<div class="columns is-multiline is-mobile">
+					{% for cake in cakes %}
+					<a href="{{ cake.url }}" class="column is-one-third-tablet is-half-mobile is-relative">
+						<figure class="image is-1by1">
+							<img src="/img/cakes/{{ cake.image }}">
+							
+							<div class="is-overlay columns is-centered">
+								<div class="column">
+									<h3 class="has-text-centered has-text-white title is-size-4-widescreen is-size-5 has-text-weight-bold is-family-secondary "><small class="has-background-primary">{{ cake.name }}</small></h3>
+								</div>
 							</div>
-							<figcaption>
-								"{{ post.page-title }}"
-								<!--
-								<p class="desc">
-								{{ post.excerpt | remove: '<p>' | remove: '</p>' }}
-								</p>
-						-->
-							</figcaption>
+						
+						</figure>
+					</a>
+					{% endfor %}
+					<a href="/fillings/" class="column is-one-third-tablet is-half-mobile is-relative is-hidden-tablet">
+						<figure class="image is-1by1">
+							<img src="/img/cakes/fillings/fruit/fb_jogurt_cherry_upd.jpg">
+							
+							<div class="is-overlay columns is-centered">
+								<div class="column">
+									<h3 class="has-text-centered has-text-white title is-size-4-widescreen is-size-5 has-text-weight-bold is-family-secondary "><small class="has-background-primary">Начинки</small></h3>
+								</div>
+							</div>
+						
 						</figure>
 					</a>
 				</div>
-
-				{% endfor %}
-			</div>
-		</div>
-		<div class="row">
-			<div class="container">
-				<p>Больше информации и новостей на странице нашего <a href="/blog">Блога</a></p>
 			</div>
 		</div>
 	</div>
-</article>
+</section>
 
-<article class="info text-c">
-	<div class="padding-wrap">
-		<div class="row">
-			<div class="container">
-				<p class="desc">Следите за новостями от Тататорт в социальных сетях</p>
+<section class="section">
+	<div class="container">
+		<h2 class="title is-2 has-text-centered is-family-secondary">Начинки моих тортов</h2>
+
+		<div class="columns is-multiline">
+			{% for item in site.data.fillings %}
+			<div class="column is-3-desktop is-6">
+				<a class="card" href="{{ item.url }}">
+					<div class="card-image">
+						<figure class="image is-1by1">
+							<img src="{{ item.image }}" alt="{{ item.name }}" style="object-fit: cover;">
+							<div class="is-overlay columns is-centered">
+								<div class="column">
+									<h3 class="has-text-centered has-text-white title is-size-4-widescreen is-size-5 has-text-weight-bold is-family-secondary "><small class="has-background-primary">{{ item.name }}</small></h3>
+								</div>
+							</div>
+						</figure>
+					</div>
+				 
+				</a>
 			</div>
+			{% endfor %}
 		</div>
-		<div class="row">
-			<a class="icon" href="https://www.facebook.com/Tatatort" target="_blank" title="facebook" alt="facebook">
-				<span></span>
-				<svg>
-					<use xlink:href="#fb" />
-				</svg>
-			</a>
-			<a class="icon" href="https://www.instagram.com/tatatort/" target="_blank" title="instagram" alt="instagram">
-				<span></span>
-				<svg>
-					<use xlink:href="#instagram" />
-				</svg>
-			</a>
+		<div class="content has-text-centered">  
+			<a href="/fillings/" class="button is-primary is-large">Все начинки</a>
 		</div>
 	</div>
-</article>
+</section>
 
+<section class="section">
+	
+		<h2 class="title is-2 has-text-centered is-family-secondary">Тататорт Блог</h2>
+
+
+	<div class="container">
+		<div class="tile is-ancestor">
+			{% for post in site.posts limit:4 %}
+			<div class="tile is-parent">
+				<article class="tile is-child card">
+					<div class="card-image">
+						<figure class="image is-4by3">
+							<img src="/{{ post.image-path }}" alt="{{ post.page-title }}" style="object-fit: cover;">
+						</figure>
+					</div>
+					<div class="card-content">
+						<p class="title is-5-desktop is-6">{{ post.page-title }}</p>
+						<div class="field is-grouped">
+							<p class="control">
+								<a href="{{ post.url }}" class="button is-primary">Читать</a> 
+							</p>
+							<p class="control">
+								<time datetime='{{ post.date |  date: "%Y-%m-%d" }}'>{{ post.date |  date: "%-d/%m/%Y" }}</time>
+							</p>
+						</div>
+					</div>
+				</article>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+
+	
+	<div class="container">
+		<div class="columns">
+			<div class="column has-text-centered">
+				<p>Больше информации и новостей на странице нашего <a href="/blog/">Блога</a></p>
+			</div>
+		</div>
+	</div>
+
+
+</section>
+
+
+	<div class="modal" id="faq">
+		<div class="modal-background"></div>
+		<div class="modal-card">
+			<header class="modal-card-head">
+				<p class="modal-card-title has-text-weight-bold is-family-secondary">FAQ</p>
+				<button class="delete has-background-danger" aria-label="close"></button>
+			</header>
+			<section class="modal-card-body">
+				<div class="content">
+					<h3 class="is-size-3 is-family-secondary">Ответы на вопросы, которые часто задают при заказе торта</h3>
+					<p class="desc"><b>1. Можно заказать торт на завтра?</b></p>
+					<p>— Заказы принимаются минимум за три дня до даты интересующей Вас даты. Также капкейки, пряники и макарон. </p>
+			
+					<p class="desc">2. Что такое “интересующая Вас дата”?</p>
+					<p>— Это день, когда Вы хотите забрать заказ. Заказ будет в этот день, не раньше и не позже.</p>
+			
+					<p class="desc">3. Можно ли поменять дату заказа?</p>
+					<p>— Да, только предупредить мастера об этом необходимо минимум за три дня до даты, оговоренной ранее.</p>
+			
+					<p class="desc">4. Как определить вес торта для заказа?</p>
+					<p>— Обычно торт заказывают торт из расчета 150 - 200 грамм на человека. Речь идет о торте с минимальным количеством декора. Если же Ваш декор предполагает большой объем мастики и другого материала, то это необходимо учесть при расчете общего веса.</p>
+			
+					<p class="desc">5. Какую начинку выбрать? Что посоветуете? А это вкусно?</p>
+					<p>— Друзья, в перечне представлены все начинки, которые проработаны и опробованы мной, моей семьей, заказчиками. Каждая из них вкусная по-своему. Какие-то более универсальны, какие-то рассчитаны на определенные вкусовые пристрастия. Ознакомьтесь с нашим перечнем, перейдя по ссылке и при заказе обязательно озвучьте свои предпочтения. Если ничего не подойдет именно Вам, то мы что-то придумаем :) Для многоярусных тортов, в качестве начинок нижних ярусов оптимально выбрать более плотную начинку.</p>
+			
+					<p class="desc">6. С начинкой определились, а что снаружи?</p>
+					<p>— Варианты покрытия торта: крем, мастика, глазурь. Возможны различные цветовые решения. Креатив приветствуется. Стоит помнить, что торт это еда, а яркого цвета можно добиться лишь большим количеством красителя. Красители мы используем качественные, поэтому варианты окраски “соком свеклы и моркови” не предлагать ))) Как вариант, для покрытия торта может быть использован крем, с добавлением натурального ягодного пюре, но тогда спектр цвета для Вашего торта будет ограничен. Декор торта обсуждается в индивидуальном порядке. Вы можете выбрать торт на нашем сайте, найти идею в интернете или же рассказать чего хотите именно Вы. Креатив приветствуется )))</p>
+			
+					<p class="desc">7. Как будет упакован торт?</p>
+					<p>— Торт вы получаете на подложке в удобной коробке. Если торт превышает габариты доступных коробок (максимальные размеры В*Д*Ш = 45*45*45 см), упаковка по ситуации.</p>
+			
+					<p class="desc">8. Есть ли доставка?</p>
+					<p> — На данный момент только Самовывоз.</p>
+			
+					<p class="desc">9. Как хранить торт?</p>
+					<p>— Торт хранить в холодильнике. При температуре от +2 до +8. Вариант “да что с ним за ночь на балконе случится” мы не рассматриваем и Вам не рекомендуем. Торт - это украшение Вашего праздника, найдите ему достойное место для хранения перед подачей )))</p>
+				</div>
+			</section>
+			<footer class="modal-card-foot">
+				<div class="field is-grouped">
+					<p class="control">
+						<a class="button is-primary is-outlined is-small" href="mailto:tatautekhina@gmail.com" title="Напишите нам!" alt="tatautekhina@gmail.com">
+							Напишите нам
+						</a>
+					</p>
+				 
+					<p class="control">
+						<a class="button is-primary is-small" href="tel:+380632498807" title="Позвоните нам!" alt="+380632498807">
+							Позвоните нам
+						</a>
+					</p>
+					<p class="control">
+						<a class="has-text-primary" href="https://www.facebook.com/Tatatort">
+							<span class="icon">
+								<i class="fab fa-lg fa-facebook-square"></i>
+							</span>
+						</a>
+					
+						<a class="has-text-primary" href="https://www.instagram.com/tatatort/">
+							<span class="icon">
+								<i class="fab fa-lg fa-instagram"></i>
+							</span>
+						</a>
+					</p>
+				</div>
+			</footer>
+		</div>
+	</div>

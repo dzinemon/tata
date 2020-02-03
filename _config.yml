@@ -14,13 +14,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 #title: Your awesome title
-email: tort@tatatort.com.ua
+email: tatautekhina@gmail.com
 #description: > # this means to ignore newlines until "baseurl:"
 #baseurl: "/_site" # the subpath of your site, e.g. /blog
 #url: "" 
 
 baseurl: ""
-url: "https://tatatort.com.ua"
+url: "http://tatatort.com.ua"
 
 
 twitter_username: andriisha
@@ -70,10 +70,66 @@ picture:
     gal_thumb:
       attr:
         itemprop: "image"
-        class: "img-auto"
+        class: ""
       ppi: [1,2]
       source_320:
         media: "(min-width: 320px)"
         width: "230"
       source_default:
         width: "230"
+
+defaults:
+  -
+    scope:
+      path: /img/cakes/candybar/*
+
+    values:
+      cake_cat: candybar
+  -
+    scope:
+      path: /img/cakes/celebration/*
+
+    values:
+      cake_cat: celebration
+  -
+    scope:
+      path: /img/cakes/corporate/*
+
+    values:
+      cake_cat: corporate
+  -
+    scope:
+      path: /img/cakes/infant/*
+
+    values:
+      cake_cat: infant
+  -
+    scope:
+      path: /img/cakes/kids/*
+
+    values:
+      cake_cat: kids
+  -
+    scope:
+      path: /img/cakes/man/*
+
+    values:
+      cake_cat: man
+  -
+    scope:
+      path: /img/cakes/nude/*
+
+    values:
+      cake_cat: nude
+  -
+    scope:
+      path: /img/cakes/small/*
+
+    values:
+      cake_cat: small
+  -
+    scope:
+      path: /img/cakes/wedding/*
+
+    values:
+      cake_cat: wedding

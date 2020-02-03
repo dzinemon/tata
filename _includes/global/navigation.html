@@ -1,0 +1,67 @@
+
+<nav class="navbar is-fixed-top has-shadow is-white" role="navigation" aria-label="main navigation">
+  <div class="container is-fullhd">
+    <div class="navbar-brand ">
+      <a class="navbar-item is-family-secondary has-text-weight-bold" href="/">
+        <figure class="">
+          <img src="/img/logo.svg" height="28" width="38">
+        </figure>
+        Tatatort
+      </a>
+  
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="tataNavbar">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+  
+    <div id="tataNavbar" class="navbar-menu">
+      <div class="navbar-start is-family-secondary">
+  
+        {% for item in site.data.global-navigation | offset: 1 %}
+          {% if item.class == false %}
+            <a class="navbar-item has-text-weight-bold" href="{{ item.url }}">
+              {{ item.name}}
+            </a>
+          {% elsif item.class == 'has-dropdown' %}
+  
+            <div class="navbar-item has-dropdown is-hoverable">
+              {% assign sub_items = item.items %}
+  
+               
+              <a class="navbar-link has-text-weight-bold">
+                {{ item.name}}
+              </a>
+      
+              <div class="navbar-dropdown">
+                {% for sub_item in sub_items %}
+                <a class="navbar-item  has-text-weight-semibold"  href="{{ sub_item.url }}">
+                  {{ sub_item.name }}
+                </a>
+                {% endfor %}
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+       
+  
+        
+      </div>
+  
+      <div class="navbar-end">
+        <a class="navbar-item" href="https://www.facebook.com/Tatatort">
+          <span class="icon">
+            <i class="fab fa-facebook-square"></i>
+          </span>
+        </a>
+      
+        <a class="navbar-item" href="https://www.instagram.com/tatatort/">
+          <span class="icon">
+            <i class="fab fa-instagram"></i>
+          </span>
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>

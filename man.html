@@ -96,6 +96,38 @@ images:
   - image-path: /man/man30.jpg
     title: Торт для мужчины
     alt: Торт морская тематика. Отдых и свобода
+  - image-path: /man/man31.jpg
+    title: Торт для мужчины
+    alt: Торт Iron Man на 30 лет
+  - image-path: /man/man32.jpg
+    title: Торт для мужчины
+    alt: Торт для футболиста
+  - image-path: /man/man33.jpg
+    title: Торт для мужчины
+    alt: Брутальный Торт с шоколадом
+  - image-path: /man/man34.jpg
+    title: Торт для мужчины
+    alt: Брутальный Торт со сладостями
 ---
 
-{% include sections/gallery.html %}
+<section class="section">
+	<div class="container is-fullhd">
+		<div class="columns">
+			<div class="column has-text-centered">
+				<h1 class="title is-1 is-family-secondary">{{ page.page-title }}</h1>
+			</div>
+		</div>
+		
+		<div class="columns is-multiline is-mobile">
+			{% assign image_files = site.static_files | where: "cake_cat", "man" %}
+				{% for image in image_files reversed %}
+				<a class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile" rel="{{ page.category }}" href="{{ image.path }}" title="{{ image.basename }}">
+					<figure class="image is-1by1">
+						{% picture gal_thumb /man/{{ image.name }} alt="{{ image.basename }}" style="object-fit:cover"%}
+					</figure>
+				</a>
+				{% endfor %}
+			
+		</div>
+	</div>
+</section>

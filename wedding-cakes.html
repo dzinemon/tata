@@ -183,9 +183,6 @@ images:
   - image-path: /wedding/wed58.jpg
     title: Свадебный торт
     alt: Нежный трехъярусный свадебный торт с цветами и кремчизом
-#  - image-path: /wedding/wed59.jpg
-#    title: Свадебный торт
-#    alt: Свадебный торт белого цвета без мастики. Украшен виноградом клубникой и инжиром.
   - image-path: /wedding/wed60.jpg
     title: Свадебный торт
     alt: Свадебный торт белого цвета с сердечками и мишками.
@@ -207,6 +204,53 @@ images:
   - image-path: /wedding/wed66.jpg
     title: Свадебный торт
     alt: Трехъярусный свадебный торт с розами
+  - image-path: /wedding/wed67.jpg
+    title: Свадебный торт
+    alt: Торт Альфа-самец тащит невесту 
+  - image-path: /wedding/wed68.jpg
+    title: Свадебный торт
+    alt: Трехъярусный свадебный торт с рюшами
+  - image-path: /wedding/wed69.jpg
+    title: Свадебный торт
+    alt: Двухъярусный нежный свадебный торт с цветком
+  - image-path: /wedding/wed70.jpg
+    title: Свадебный торт
+    alt: Трехъярусный нежный свадебный торт с цветами и макаронс
+  - image-path: /wedding/wed71.jpg
+    title: Свадебный торт
+    alt: Двухъярусный нежный свадебный торт с цветами и меренгами
+  - image-path: /wedding/wed72.jpg
+    title: Свадебный торт
+    alt: Четырехъярусный свадебный торт с топпером, цветами и рюшами
+  - image-path: /wedding/wed73.jpg
+    title: Свадебный торт
+    alt: Четырехъярусный свадебный торт с цветами и рюшами
+  - image-path: /wedding/wed74.jpg
+    title: Свадебный торт
+    alt: Трехъярусный свадебный торт с цветами и кремчизом
+  - image-path: /wedding/wed75.jpg
+    title: Свадебный торт
+    alt: Cвадебный торт с цветами и кремчизом
 ---
 
-{% include sections/gallery.html %}
+<section class="section">
+	<div class="container is-fullhd">
+		<div class="columns">
+			<div class="column has-text-centered">
+				<h1 class="title is-1 is-family-secondary">{{ page.page-title }}</h1>
+			</div>
+		</div>
+		
+		<div class="columns is-multiline is-mobile">
+			{% assign image_files = site.static_files | where: "cake_cat", "wedding" %}
+				{% for image in image_files reversed %}
+				<a class="column is-2-widescreen is-3-desktop is-4-tablet is-6-mobile" rel="{{ page.category }}" href="{{ image.path }}" title="{{ image.basename }}">
+					<figure class="image is-1by1">
+						{% picture gal_thumb /wedding/{{ image.name }} alt="{{ image.basename }}" style="object-fit:cover"%}
+					</figure>
+				</a>
+				{% endfor %}
+			
+		</div>
+	</div>
+</section>

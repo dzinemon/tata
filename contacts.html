@@ -6,44 +6,52 @@ priority: 0.1
 changefreq: monthly
 ---
 
-<article class="text-c">
-	<div class="padding-wrap">
-		<div class="row">
-			<div class="container">
-				<h1>Наши контакты</h1>
-				<div class="row">
-					<a href="#" title="Перейти на сайт" alt="Перейти на сайт">tatatort.com.ua</a>
+<section class="hero is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title is-1 is-family-secondary has-text-centered">
+        Наши контакты
+      </h1>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+	<div class="container is-fullhd">
+		<div class="columns is-centered">
+			
+			<div class="column is-narrow">
+				<div class="box">
+					<p>
+						Website: <a href="#" title="Перейти на сайт" alt="Перейти на сайт">tatatort.com.ua</a>
+					</p>
+					
+					<p>
+						Email: <a href="mailto:{{ site.email }}">E-mail: {{ site.email }}</a>
+					</p>
+				
+					<p>
+						Phone: <a href="tel:+380632498807">+38(063)249 88 07</a>
+					</p>
+
+					<p>
+						Social: <a class="" href="https://www.facebook.com/Tatatort">
+							<span class="icon">
+								<i class="fab fa-facebook-square"></i>
+							</span>
+						</a>
+					
+						<a class="" href="https://www.instagram.com/tatatort/">
+							<span class="icon">
+								<i class="fab fa-instagram"></i>
+							</span>
+						</a>
+					</p>
+					
 				</div>
-				<div class="row">
-					<a href="mailto:tort@tatatort.com.ua">E-mail: tort@tatatort.com.ua</a>
-				</div>
-				<div class="row">
-					<a href="tel:+380632498807">+38(063)249 88 07</a>
-				</div>
-				<hr>
 			</div>
+		
 		</div>
-		<div class="row">
-			<div class="container">
-				<a class="icon icon-rev" href="https://www.facebook.com/Tatatort" target="_blank" title="facebook" alt="facebook">
-				<span></span>
-				<svg>
-					<use xlink:href="#fb" />
-				</svg>
-			</a>
-			<a class="icon icon-rev" href="http://vk.com/club39789341" target="_blank" title="vkontakte" alt="vkontakte">
-				<span></span>
-				<svg>
-					<use xlink:href="#vk" />
-				</svg>
-			</a>
-			<a class="icon icon-rev" href="https://www.instagram.com/tatatort/" target="_blank" title="instagram" alt="instagram">
-				<span></span>
-				<svg>
-					<use xlink:href="#instagram" />
-				</svg>
-			</a>	
-			</div>
-		</div>
+		
 	</div>
-</article>
+</section>

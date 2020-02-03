@@ -1,0 +1,48 @@
+- image-path: /fillings/original/or_savanna.jpg
+  class:
+  filling-name: Торт •Саванна•
+  caption: Ванильный бисквит с шоколадной крошкой, смородиновое кули и ванильный крем на основе сливок, кремчиза, и белого шоколада.
+- image-path: /fillings/original/or_lovely.jpg
+  class:
+  filling-name: Торт •Любимый•
+  caption: Песочные коржи, смородина, шоколадный и карамельный крем.
+- image-path: /fillings/original/or_golden-key.jpg
+  class:
+  filling-name: Торт •Золотой ключик•
+  caption: Ванильный и шоколадный бисквит, пропитанный сиропом, карамельный крем. Вишня и орехи по желаниюю
+- image-path: /fillings/original/or_berry_fantasy.jpg
+  class: favor
+  filling-name: Торт •Ягодная фантазия•
+  caption: Ванильный бисквит, пропитанный сиропом, ванильный мусс на белом шоколаде, ягодная прослойка, ягодный мусс.
+- image-path: /fillings/original/or_charm.jpg
+  class:
+  filling-name: Торт •Очарование•
+  caption: Ванильный бисквит, пропитанный сиропом, нежное сочетание лимона и черники.
+- image-path: /fillings/cakelogo.png
+  class: 
+  filling-name: Торт •Клубничный поцелуй•
+  caption: Классический бисквит, маковый или шоколадный бисквит на выбор, клубничная прослойка, нежный сливочно-заварной крем.
+- image-path: /fillings/original/or_shy_girl_cake.jpg
+  class: 
+  filling-name: Торт •Укрощение строптивой•
+  caption: Ванильный бисквит, пропитанный сиропом, ванильный крем с кусочками темного шоколада, клубничное кули, ванильный чизкейк.
+- image-path: /fillings/original/or_dual.jpg
+  class: 
+  filling-name: Торт •Дуэт•
+  caption: Шоколадный бисквит с лимонной цедрой, лимонное суфле, суфле •молочный шоколад•. Изумительное сочетание нежной лимонной кислинки и вкуса молочного шоколада.
+- image-path: /fillings/original/or_honey_tropic.jpg
+  class: favor
+  filling-name: Торт •Медовая тропиканка•
+  caption: Медовые коржи, сливочно-сметанный крем, бананы, персик, вишня. Очень интересное сочетание фруктов и медовых коржей, с нежной фруктовой ноткой.
+- image-path: /fillings/original/or_honey_cherry.jpg
+  class: 
+  filling-name: Торт •Медовик с вишней•
+  caption: Медовые коржи, сливочно-сметанный крем, и много сочной вишни, обжаренные грецкие орехи по желанию
+- image-path: /fillings/cakelogo.png
+  class: 
+  filling-name: Торт •Dark berries•
+  caption: Шоколадный бисквит, крем на основе темного шоколада, прослойка кули из ягод и ягодный мусс.
+- image-path: /fillings/original/or_s_cherry.jpg
+  class: 
+  filling-name: Торт •Песочный торт с вишней и орехами•
+  caption: Песочные коржи, маслянно-сметанный крем, вишня, обжаренные грецкие орехи.

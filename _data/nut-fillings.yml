@@ -1,0 +1,24 @@
+- image-path: /fillings/nut/nut_orehovyi.jpg
+  class:
+  filling-name: Торт •Ореховый со сгущенным молоком•
+  caption: Ореховый бисквит, пропитанный ванильным сиропом, крем на основе вареной сгущенки с добавлением обжаренных грецких орехов.
+- image-path: /fillings/nut/nut_grand.jpg
+  class:
+  filling-name: Торт •Бабушкин ореховый•
+  caption: Бисквит с грецким орехом, сметанно-масляный крем с добавлением обжаренных грецких орехов.
+- image-path: /fillings/nut/nut_elvin.jpg
+  class: favor
+  filling-name: Торт •Элвин•
+  caption: Ароматный арахисовый бисквит, пропитанный сиропом, ганаш из темного шоколада, кофейный крем с белым шоколадом и кремсыром.
+- image-path: /fillings/nut/nut_chocolate.jpg
+  class:
+  filling-name: Торт •Шоколадно-ореховый•
+  caption: Шоколадный бисквит, пропитанный сиропом, карамельный крем с вареной сгущенкой, орехи.
+- image-path: /fillings/nut/nut_snikers.jpg
+  class: 
+  filling-name: Торт •Сникерс•
+  caption: Шоколадный бисквит, пропитанный сиропом, карамельный слой с жаренным арахисом, мусс с белым шоколадом, мусс с темным шоколадом .
+- image-path: /fillings/nut/nut_dolce.jpg
+  class: 
+  filling-name: Торт •Дольче вита•
+  caption: Ореховый и маковый бисквит, пропитанный сиропом, песочные коржи, карамельный крем.

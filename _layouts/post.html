@@ -2,32 +2,44 @@
 layout: tatatortdefault
 ---
 
-<article>
-	<div class="padding-wrap">
-		<div class="container">
-			<div class="row">
-				<p class="desc">
-					<a href="/blog">К списку постов</a>
-				</p>
+<section class="hero is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title is-1 is-family-secondary has-text-centered">
+        {{page.page-title}}
+      </h1>
+    </div>
+  </div>
+</section>
+
+<div class="has-background-light">
+	<div class="container">
+		<div class="columns">
+			<div class="column">
+				<nav class="breadcrumb" aria-label="breadcrumbs">
+				  <ul>
+				    <li><a href="/blog">К списку постов</a></li>
+				    <li class="is-active"><a href="#" aria-current="page">{{ page.page-title }}</a></li>
+				  </ul>
+				</nav>
 			</div>
 		</div>
-			<div class="container">
-				<h1>{{ page.page-title }}</h1>
-			</div>
-			<div class="row">
-				<div class="container">
-					<div class="four columns">
-						<img src="/{{ page.image-path }}" alt="{{ page.page-title }}">
-					</div>
+	</div>
+</div>
+
+<section class="section">
+	<div class="container is-fullhd">
+
+			<div class="columns">
+				<div class="column is-5-tablet">
+					<figure class="image is-1by1">
+						<img src="/{{ page.image-path }}" alt="{{ page.page-title }}" style="object-fit: contain;">
+					</figure>
+				</div>
+				<div class="column is-6-tablet is-offset-1-tablet">
+					{{ content }}
 				</div>
 			</div>
-			<div class="row">
-				<div class="container">{{ content }}</div>
-			</div>
-			<div class="row">
-				<div class="container">
-					<a href="/blog">Больше тортов на странице блога</a>
-				</div>
-			</div>
+		
 		</div>
-</article>
+</section>
