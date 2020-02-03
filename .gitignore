@@ -2,9 +2,6 @@ _site
 .sass-cache
 .jekyll-metadata
 node_modules/
-package-lock.json
-package.json
-gulpfile.js
 /_assets/
 /_img/
 .DS_Store

@@ -1,0 +1,43 @@
+{
+  "name": "tatajekyll",
+  "version": "1.0.0",
+  "description": "static website",
+  "main": "_assets/sass/styles.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css-build": "node-sass --omit-source-map-url _assets/sass/styles.scss css/styles.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dzinemon/tatajekyll.git"
+  },
+  "author": "dzinemon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dzinemon/tatajekyll/issues"
+  },
+  "homepage": "https://github.com/dzinemon/tatajekyll#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.5",
+    "bulma": "^0.8.0",
+    "critical": "^1.1.0",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-shell": "^0.6.5",
+    "gulp-uglify": "^3.0.0",
+    "gulp-uncss": "^1.0.6",
+    "node-sass": "^4.13.0",
+    "run-sequence": "^2.2.1"
+  },
+  "dependencies": {
+    "fsevents": "^1.1.3",
+    "gifsicle": "^3.0.4"
+  }
+}
